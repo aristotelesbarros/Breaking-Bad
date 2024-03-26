@@ -1,6 +1,6 @@
 @font-face{
   font-family: minhafonte;
-  src: url(Spray\ Letters.otf);
+  src: url(Breaking\ Bad.ttf);
 }
 body{
  
@@ -21,21 +21,32 @@ background-color: rgb(24, 24, 24);
 
   width: 100%;
   height: 201px;
-  background-color: rgba(196, 196, 196, 0.466);
+  background-color:rgb(240, 241, 240);
   display: flex;
   margin-top: 5px;
 
 }
 
 .elenco{
-  width: 100%;
-  height: 200px;
+  width: 283px;
+  height: 201px;
 }
  
-h1{
+.titulo{
+
+ 
   font-family: minhafonte;
-  color: rgba(17, 16, 0, 0.705);
-  margin: 19px;
-  margin-top: 10px;
-  
+  color: rgb(0, 0, 0);
+  font-size: 53px;
+  margin-left: 340px;
+  margin-top: -26px;
+  font-size: 72px;
+}
+
+.paragrafo{
+  font: arial;
+  margin-left: 6px;
+  margin-top: -57px;
+  font-size: 19px;
+  display: flex;
 }
