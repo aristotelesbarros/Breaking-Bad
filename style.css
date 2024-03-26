@@ -27,7 +27,7 @@ background-color: rgb(24, 24, 24);
 
 }
 
-.elenco{
+.img{
   width: 283px;
   height: 201px;
 }
@@ -41,6 +41,7 @@ background-color: rgb(24, 24, 24);
   margin-left: 340px;
   margin-top: -26px;
   font-size: 72px;
+  
 }
 
 .paragrafo{
@@ -48,5 +49,7 @@ background-color: rgb(24, 24, 24);
   margin-left: 6px;
   margin-top: -57px;
   font-size: 19px;
-  display: flex;
+  
+  
+ 
 }
