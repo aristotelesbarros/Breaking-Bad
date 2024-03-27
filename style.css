@@ -50,17 +50,18 @@ img{
  
 }
 
-.caixa{
-  width: 263px;
-  height: 31px;
+.card2{
+  width: 222px;
+  height: 30px;
   background-color: aqua;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  
+  margin-left: 10px;
 }
 
-.menu{
-  margin-top: 3px;
-  text-align: center;
+.container2{
+  display: flex;
+}
+
+.menu2{
+ margin-top: 3px;
+text-align: center;
 }
