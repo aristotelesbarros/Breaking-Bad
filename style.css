@@ -58,6 +58,7 @@ img{
   background-color: aqua;
   margin-left: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .container2{
