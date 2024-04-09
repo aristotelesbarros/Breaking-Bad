@@ -1,6 +1,8 @@
 @font-face{
   font-family: minhafonte;
   src: url(Breaking\ Bad.ttf);
+
+
 }
 body{
  
@@ -45,7 +47,7 @@ img{
   font: arial;
   margin-left: 6px;
   margin-top: -57px;
-  font-size: 19px;
+  font-size: 21px;
   
  
 }
@@ -77,14 +79,30 @@ text-align: center;
 
 
 .paragrafo2{
-  font: arial;
+  font-family: ola;
   margin-left: 6px;
   margin-top: -38px;
-  font-size: 25px;
+  font-size: 21px;
   
 }
 
 .img2{
   width: 234px;
   height: 201px;
+}
+
+
+
+
+
+.titulo33{
+  color: red;
+  margin-top: -430px;
+  font-size: 100px;
+}
+
+.img22{
+  width: 1333px;
+  height: 158px;
+  margin-top: 1px;
 }
