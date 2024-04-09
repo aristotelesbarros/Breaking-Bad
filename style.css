@@ -66,3 +66,25 @@ img{
  margin-top: 3px;
 text-align: center;
 }
+
+.titulo2{
+  color: rgb(0, 0, 0);
+ 
+  margin-left: 258px;
+  margin-top: 18px;
+  font-size: 55px; 
+}
+
+
+.paragrafo2{
+  font: arial;
+  margin-left: 6px;
+  margin-top: -38px;
+  font-size: 25px;
+  
+}
+
+.img2{
+  width: 234px;
+  height: 201px;
+}
