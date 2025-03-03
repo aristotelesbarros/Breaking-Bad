@@ -1,109 +1,198 @@
-@font-face{
-  font-family: minhafonte;
-  src: url(Breaking\ Bad.ttf);
-
-
+/* Geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
-body{
- 
-background-color: rgb(24, 24, 24);
-    
+
+/* Header */
+header {
+  background-color: #2a2a2a;
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.nav-item:hover {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+/* Banner */
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Cards */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.card-text h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card-text p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+  /* Torna o menu do header vertical em telas menores */
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
   }
 
-  
-img{
-  width: 100%;
-  margin-top: 9px;
- }
+  .nav-item {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #444;
+  }
 
-.container{
+  .nav-item:first-child {
+    border-top: none;
+  }
+  
+  /* Ajustes no layout dos cards para telas menores */
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #2a2a2a;
+  padding: 10px 0;
+  text-align: center; /* Centraliza o conteúdo do header */
+}
+
+.header-container {
   display: flex;
-  
+  flex-direction: column; /* Faz com que o conteúdo fique em coluna (logo e navegação em baixo) */
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
 }
 
- .card{
+.logo h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
 
-  width: 100%;
-  background-color:rgb(240, 241, 240);
+.navigation {
   display: flex;
-  margin-top: 5px;
-
+  flex-direction: row;
+  flex-wrap: wrap; /* Faz os itens se ajustarem em várias linhas, se necessário */
+  justify-content: center; /* Centraliza os itens no menu */
 }
 
-.img{
-  width: 283px;
-  height: 201px;
-}
- .titulo{
-  font-family: minhafonte;
-  color: rgb(0, 0, 0);
-  font-size: 53px;
-  margin-left: 340px;
-  margin-top: -26px;
-  font-size: 72px; 
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 50px;
 }
 
-.paragrafo{
-  font: arial;
-  margin-left: 6px;
-  margin-top: -57px;
-  font-size: 21px;
-  
- 
+.nav-item:hover {
+  background-color: #444;
+  border-radius: 4px;
 }
 
-.card2{
-  width: 222px;
-  height: 30px;
-  background-color: aqua;
-  margin-left: 10px;
-  border-radius: 10px;
-  cursor: pointer;
-}
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Torna o menu do header vertical em telas menores */
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
 
-.container2{
-  display: flex;
-}
+  .nav-item {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #444;
+  }
 
-.menu2{
- margin-top: 3px;
-text-align: center;
-}
-
-.titulo2{
-  color: rgb(0, 0, 0);
- 
-  margin-left: 258px;
-  margin-top: 18px;
-  font-size: 55px; 
-}
-
-
-.paragrafo2{
-  font-family: ola;
-  margin-left: 6px;
-  margin-top: -38px;
-  font-size: 21px;
-  
-}
-
-.img2{
-  width: 234px;
-  height: 201px;
-}
-
-
-
-
-
-.titulo33{
-  color: red;
-  margin-top: -430px;
-  font-size: 100px;
-}
-
-.img22{
-  width: 1333px;
-  height: 158px;
-  margin-top: 1px;
+  .nav-item:first-child {
+    border-top: none;
+  }
 }
